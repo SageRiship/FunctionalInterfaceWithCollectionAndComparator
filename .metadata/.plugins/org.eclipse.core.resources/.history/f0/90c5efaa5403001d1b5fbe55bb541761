@@ -1,0 +1,42 @@
+package com.ivy;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+class Employee{
+	private int id;
+	private String name ;
+	private int salary;
+	
+	public Employee(int id, String name, int salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	public Employee() {
+		
+	}
+
+	
+	
+}
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Employee> emp = new ArrayList<Employee>();
+		emp.add(new Employee(1,"Rushikesh",50000));
+		emp.add(new Employee(2,"Yash",40000));
+		emp.add(new Employee(3,"Roopam",30000));
+		emp.add(new Employee(4,"Sahil",20000));
+		emp.add(new Employee(5,"Ashwin",10000));
+		Employee e = new Employee();
+		
+	    for (Employee ele : emp) {
+	    	System.out.println(ele);
+	    }
+
+	}
+
+}
