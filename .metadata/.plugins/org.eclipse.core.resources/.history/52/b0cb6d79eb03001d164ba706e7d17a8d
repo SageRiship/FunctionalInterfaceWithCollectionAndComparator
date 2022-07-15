@@ -19,8 +19,8 @@ public class ProductListDemo {
 //		Collections.sort(list, 
 //				(Product p1,Product p2)->(p1.getPid() < p2.getPid())? -1:(p1.getPid() > p2.getPid())?1:0);
 
-//		Collections.sort(list, 
-//				(Product p1,Product p2)->(p1.getName().compareTo(p2.getName())));
+		Collections.sort(list, 
+				(Product p1,Product p2)->(p1.getName().compareTo(p2.getName())));
 
 		
 		System.out.println(list);
