@@ -1,0 +1,20 @@
+package com.ivy;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Product> product = new ArrayList<Product>();
+		
+		product.add(new Product(101,"Apple","Mobile"));
+		product.add(new Product(19,"Samsung","Tele"));
+		product.add(new Product(54,"Vivo","Phone"));
+		product.add(new Product(35,"Mi","Cell"));
+
+	}
+
+}
